@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>@font-face rule</title>
+        <style>
+            @font-face {
+                font-family:AlexBrush;
+                src: url(fonts/AlexBrush-Regular.ttf);
+               
+            }
+          body{
+                background-color: rgb(230, 244, 200);
+            }
+            #box{
+                    width:1000px;
+                    padding: 20px;
+                    text-align:justify;
+                    color: aqua;
+                    font-family: AlexBrush;
+                    font-size: 40px;
+                    column-width: 250px;
+                    column-gap:30px;
+                    column-rule-width: 10px;
+                    column-rule-style: dotted;
+                    column-rule-color: red;
+
+            }
+            h2{
+                column-span: all;
+                text-align:center ;
+                color: rgb(218, 107, 23);
+                font-family: AlexBrush;
+                font-size: 50px;
+            }
+            h1{
+                color: rgb(86, 239, 86);
+                font-size: 80px;
+                font-family: AlexBrush;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>CSS-Propties:@font-face rule</h1>
+        <div id="box">
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae erat a diam porta aliquet. Proin metus ligula, luctus sed erat at, semper volutpat dolor. Suspendisse lobortis magna viverra dui efficitur, nec vestibulum neque fermentum. Integer lacinia vel diam nec porttitor. Vivamus id magna malesuada, pharetra tellus eget, pharetra lorem. In aliquam nibh non elit tincidunt, nec iaculis velit convallis. 
+             Sed ultricies, metus a tempor condimentum, dolor justo tincidunt augue, eget dictum dolor ex et lacus. Cras rhoncus venenatis lacus eu condimentum. Suspendisse scelerisque nisl ex, sed dignissim dui rhoncus et. Ut semper felis quis efficitur finibus. Vivamus maximus erat a erat cursus porttitor.
+
+        </div>
+    </body>
+</html>

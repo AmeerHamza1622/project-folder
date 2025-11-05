@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Basic Layout</title>
+    <style>
+        body {
+            background-color: cadetblue;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        #wrapper {
+            width: 1000px;
+            margin: 0 auto;
+            background-color: white;
+        }
+
+        #header {
+            background-color: crimson;
+            color: white;
+            text-align: center;
+            font-size: 30px;
+            height: 150px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        #header h1 {
+            margin: 0;
+        }
+
+        #manu {
+            background-color: salmon;
+        }
+
+        #manu ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        #manu li {
+            display: inline-block;
+        }
+
+        #manu li a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            color: black;
+        }
+
+        #contant {
+            width: 800px;
+            float: left;
+            min-height: 300px;
+            padding: 15px;
+            box-sizing: border-box;
+        }
+
+        #sidebar {
+            width: 200px;
+            float: right;
+            background-color: lightblue;
+            min-height: 300px;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        #sidebar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        #sidebar ul li a {
+            text-decoration: none;
+            color: black;
+            display: block;
+            padding: 5px 0;
+        }
+
+        #footer {
+            background-color: lightsalmon;
+            clear: both;
+            padding: 10px;
+            text-align: center;
+        }
+
+        p {
+            text-align: justify;
+            padding: 10px;
+        }
+
+        
+        @media screen and (max-width: 700px) {
+            #wrapper {
+                width: 100%;
+                margin: 0;
+            }
+
+            #header {
+                font-size: 24px;
+                height: auto;
+                padding: 20px;
+            }
+
+            #manu li {
+                display: block;
+                text-align: center;
+            }
+
+            #contant, #sidebar {
+                width: 100%;
+                float: none;
+                padding: 10px;
+            }
+
+            #sidebar {
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div id="wrapper">
+        <div id="header">
+            <h1>CSS Properties: Basic Layout&media-quere</h1>
+        </div>
+
+        <div id="manu">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div id="contant">
+            <h2>Design Basic Layout</h2>
+          <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa suscipit commodi corrupti vel! Tempore, a quae. Sunt molestiae, fugiat laborum, ipsam ratione sit eius praesentium tenetur autem aperiam doloribus nulla!
+                Pellentesque iaculis, urna id congue ullamcorper, dui lectus molestie enim, sed volutpat magna nibh eget massa. Curabitur et lacus tellus. Duis vel sagittis lacus, id feugiat nibh. Mauris eget nisi at leo gravida aliquet sed nec mauris. Suspendisse vel tristique quam. Nam eu laoreet libero. Proin in tincidunt massa. Fusce et mi id erat volutpat posuere eget et lorem.
+            </p>
+        </div>
+
+        <div id="sidebar">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">TikTok</a></li>
+                <li><a href="">YouTube</a></li>
+                <li><a href="">Facebook</a></li>
+                <li><a href="">Google</a></li>
+                <li><a href="">Amazon</a></li>
+                <li><a href="">Flipkart</a></li>
+            </ul>
+        </div>
+
+        <div id="footer">
+            hamza1622@2025
+        </div>
+    </div>
+
+</body>
+</html>

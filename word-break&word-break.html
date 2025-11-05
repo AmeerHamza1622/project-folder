@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            word-wrap&word-break
+        </title>
+        <style>
+            h1{
+                color: rgb(0, 30, 255); 
+                background-color:bisque;
+                font-size: 100px;
+                font-style: italic;
+                border-width: 20px;
+                border-color: rgb(24, 223, 21);
+                padding-left: 50px;
+                border-style: groove;
+                border-radius: 50px 50px 50px 50px;
+                box-shadow: 20px 20px 10px 0px rgb(75, 2, 2),20px -20px 10px 0px  #ffff00,-30px 20px 10px 0px rgb(219, 102, 102);
+            }
+            #box1 h2{
+                color:blue;
+                font-size: 50px;
+                text-decoration: underline brown;
+            }
+            #box2 h2{
+                color:red;
+                font-size: 50px;
+                text-decoration: underline brown;
+            }
+            #box1{
+                width: 400px;
+                padding: 10px;
+                border: 10px dashed rgb(74, 85, 237);
+                background-color: rgb(167, 167, 231);
+                text-align: justify;
+                word-wrap: break-word;
+                float: left;
+            }
+           #box2{
+               width: 400px;
+                padding: 10px;
+                border: 10px dashed rgb(203, 59, 59);
+                background-color: rgb(244, 125, 125);
+                text-align: justify;
+                word-wrap: break-all;
+                float: right; 
+            }
+            body{
+              background-color: antiquewhite;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>word-wrap&word-break</h1>
+        <div id="box1">
+            <h2>word-wrap</h2>
+              Lorem iiiiiiiiiiiiiiiiiipppppppppppppppppssssssssssssuuuuuuuuuuummmmmmmmm dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    
+        </div>
+        <div id="box2">
+            <h2>word-break</h2>
+            Fusce sit aaaaaaaaaaaaaaaaaaaaaaaammmmmmmmmmmmmmmmmmmmmeeeeeeeeeeeeeeetttttttttttttt convallis neque. Praesent luctus facilisis dolor, eget imperdiet mi venenatis sit amet. Proin tristique mattis posuere. Cras id dictum sem. Integer pretium aliquam pretium. Cras sollicitudin eleifend commodo. Sed elit ante, semper sed urna quis, cursus tincidunt orci. Donec justo velit, faucibus ullamcorper ligula vitae, sagittis ullamcorper sem. Maecenas a tellus viverra, varius magna vitae, pellentesque velit. Donec a diam elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla vehicula maximus facilisis. Sed rutrum, felis sed vulputate pretium, tellus arcu feugiat velit, et volutpat tortor purus vitae ante. Ut eget posuere velit. Nullam imperdiet interdum lacus a pellentesque. In tincidunt enim vel justo efficitur tincidunt.
+        </div>
+    </body>
+</html>
